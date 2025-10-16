@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Andrew J Webster - Game Production Executive
-description: 20+ years of game production excellence. Production Director at Amazon Games Studio. Specializing in AAA development, live service games, and AI-powered production tools.
 ---
 
 <div class="hero-section">

@@ -1,0 +1,473 @@
+---
+---
+
+@import "minima";
+
+// Hero Section
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.hero-text h2 {
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+}
+
+.headshot {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+// Sections
+.section {
+  padding: 4rem 0;
+}
+
+.section-alt {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+// Overview Section
+.overview-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.overview-highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.highlight-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-label {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+// Current Role Section
+.current-role-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.role-info h3 {
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+}
+
+.role-info h4 {
+  color: #7f8c8d;
+  margin: 0 0 0.5rem 0;
+  font-weight: 400;
+}
+
+.role-period {
+  color: #95a5a6;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.role-achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.role-achievements li {
+  padding: 0.5rem 0;
+  border-left: 3px solid #667eea;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.current-game-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game-caption {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+// Timeline
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e1e5e9;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -1.5rem;
+  top: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background: #667eea;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #e1e5e9;
+}
+
+.timeline-content h3 {
+  margin: 0 0 0.25rem 0;
+  color: #2c3e50;
+}
+
+.timeline-content h4 {
+  margin: 0 0 0.25rem 0;
+  color: #7f8c8d;
+  font-weight: 400;
+}
+
+.timeline-period {
+  color: #95a5a6;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+// Games Grid
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.game-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.game-thumbnail {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.game-info {
+  padding: 1rem;
+}
+
+.game-info h4 {
+  margin: 0 0 0.25rem 0;
+  color: #2c3e50;
+}
+
+.game-info p {
+  margin: 0 0 0.5rem 0;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.game-role {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+// Expertise Grid
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.expertise-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.expertise-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.expertise-card h3 {
+  color: #2c3e50;
+  margin: 0 0 1rem 0;
+}
+
+// Contact Section
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.contact-methods {
+  margin-top: 2rem;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-method:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #667eea;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5a6fd8;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.btn-secondary:hover {
+  background: #667eea;
+  color: white;
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .overview-grid,
+  .current-role-content,
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .overview-highlights {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .hero-cta,
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .timeline {
+    padding-left: 1rem;
+  }
+  
+  .timeline-item {
+    padding-left: 1.5rem;
+  }
+}
+
+// Additional responsive adjustments
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.4rem;
+  }
+  
+  .overview-highlights {
+    grid-template-columns: 1fr;
+  }
+  
+  .expertise-grid,
+  .games-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a6fd8;
+}
+
+// Focus states for accessibility
+.btn:focus,
+.contact-method:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+// Print styles
+@media print {
+  .hero-section {
+    background: none !important;
+    color: black !important;
+  }
+  
+  .btn {
+    border: 1px solid #000 !important;
+    background: none !important;
+    color: black !important;
+  }
+  
+  .section-alt {
+    background: none !important;
+  }
+}

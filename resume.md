@@ -9,7 +9,6 @@ title: Andrew J Webster - Resume
     <nav class="site-nav">
       <div class="trigger">
         <a class="page-link" href="/Career/">Portfolio</a>
-        <a class="page-link" href="#contact">Contact</a>
       </div>
     </nav>
   </div>

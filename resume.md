@@ -19,6 +19,9 @@ title: Andrew J Webster - Resume
     <h1>Andrew J Webster</h1>
     <div class="contact-info">
       <p>628-238-9372 | AndrewJWebster1981@gmail.com</p>
+      <div class="resume-actions">
+        <a href="/Career/print-resume.html" target="_blank" class="btn-download-pdf">📄 Download PDF</a>
+      </div>
     </div>
   </div>
 

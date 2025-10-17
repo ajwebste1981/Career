@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew J Webster - Resume</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.3;
+            color: #1b1c1d;
+            background: white;
+            padding: 0.5in;
+            max-width: 8.5in;
+            margin: 0 auto;
+        }
+        
+        /* Typography */
+        h1 {
+            font-size: 20pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.25rem;
+        }
+        
+        h2 {
+            font-size: 14pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 1rem 0 0.5rem 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        h3 {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 0.75rem 0 0.25rem 0;
+        }
+        
+        h4 {
+            font-size: 10pt;
+            font-weight: 400;
+            color: #7f8c8d;
+            margin: 0.25rem 0 0.5rem 0;
+            font-style: italic;
+        }
+        
+        p {
+            margin: 0.25rem 0;
+            font-size: 10pt;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .contact-info {
+            font-size: 10pt;
+            color: #7f8c8d;
+            margin-top: 0.5rem;
+        }
+        
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        /* Lists */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+        }
+        
+        li {
+            margin: 0.25rem 0;
+            padding-left: 1rem;
+            position: relative;
+            font-size: 10pt;
+        }
+        
+        li:before {
+            content: "•";
+            color: #667eea;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Experience sections */
+        .experience-item {
+            margin-bottom: 1rem;
+        }
+        
+        .job-title {
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 11pt;
+        }
+        
+        .company {
+            font-weight: 400;
+            color: #7f8c8d;
+            font-size: 10pt;
+        }
+        
+        .team-size {
+            color: #667eea;
+            font-style: italic;
+        }
+        
+        /* Competencies grid */
+        .competencies {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.25rem;
+            margin: 0.5rem 0;
+        }
+        
+        .competency {
+            background: #f8f9fa;
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+            font-size: 9pt;
+            text-align: center;
+            border-left: 2px solid #667eea;
+        }
+        
+        /* Credits */
+        .credits {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.25rem;
+            margin: 0.5rem 0;
+        }
+        
+        .credit {
+            font-size: 9pt;
+            padding: 0.25rem 0;
+        }
+        
+        .credit strong {
+            color: #2c3e50;
+        }
+        
+        /* Technical project */
+        .project {
+            margin: 0.5rem 0;
+        }
+        
+        .project-title {
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 11pt;
+        }
+        
+        .project-url {
+            font-size: 9pt;
+            color: #667eea;
+            margin: 0.25rem 0;
+        }
+        
+        .project-url a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .project-details li {
+            font-size: 9pt;
+            margin: 0.2rem 0;
+        }
+        
+        .project-details strong {
+            color: #2c3e50;
+        }
+        
+        /* Print optimizations */
+        @media print {
+            body {
+                padding: 0.25in;
+                font-size: 10pt;
+            }
+            
+            h1 {
+                font-size: 18pt;
+            }
+            
+            h2 {
+                font-size: 12pt;
+                margin: 0.75rem 0 0.25rem 0;
+            }
+            
+            .competencies {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.1rem;
+            }
+            
+            .competency {
+                font-size: 8pt;
+                padding: 0.1rem 0.25rem;
+            }
+            
+            .credits {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.1rem;
+            }
+            
+            .credit {
+                font-size: 8pt;
+            }
+            
+            .project-details li {
+                font-size: 8pt;
+            }
+            
+            li {
+                font-size: 9pt;
+            }
+            
+            p {
+                font-size: 9pt;
+            }
+        }
+        
+        /* Page breaks */
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Andrew J Webster</h1>
+        <div class="contact-info">
+            628-238-9372 | AndrewJWebster1981@gmail.com | 
+            <a href="https://www.linkedin.com/in/andrew-webster-68577b13/">LinkedIn Profile</a> | 
+            <a href="https://ajwebste1981.github.io/Career/">Career History</a>
+        </div>
+    </div>
+
+    <div class="no-break">
+        <h2>Executive Summary</h2>
+        <p>Seasoned game producer with over 20+ years of experience leading teams, managing complex projects from inception to launch, and fostering strong studio relationships. A calm and decisive leader, adept at navigating challenging situations and driving solutions by building relationships based on open and honest communication.</p>
+    </div>
+
+    <div class="no-break">
+        <h2>Core Competencies</h2>
+        <div class="competencies">
+            <div class="competency">Executive Alignment</div>
+            <div class="competency">Budget Management</div>
+            <div class="competency">Franchise Management</div>
+            <div class="competency">Leadership & Team Building</div>
+            <div class="competency">Project Risk Mitigation</div>
+            <div class="competency">Outsourcing & Co-Development</div>
+            <div class="competency">Studio Relationship Development</div>
+            <div class="competency">Contract Negotiations</div>
+            <div class="competency">Long-Term Strategic Planning</div>
+        </div>
+    </div>
+
+    <div class="page-break">
+        <h2>Professional Experience</h2>
+        
+        <div class="experience-item no-break">
+            <div class="job-title">Production Director, Development <span class="team-size">(250+ team)</span></div>
+            <div class="company">Amazon Games Studio | Nov 2024 - Present</div>
+            <ul>
+                <li>Currently lead and mentor a cross-functional team of 15, including Release Management personnel and Live Ops producers, to drive seasonal updates on New World and career growth.</li>
+                <li>Improved studio-wide processes by implementing team restructure (from multiple small teams to pod and strike teams), Jira-driven feature status reports for the New World team and starting build failure tracking with QA and Release Management.</li>
+                <li>Conceived and operationalized the "Incubation Teams" program, a new framework for rapid prototyping with co-dev support; built the business case, process, and P&L, leading to its adoption by a 50+ developer team.</li>
+                <li>Championed production efficiency by training the team on AI applications, accelerating workflows and outward reporting by implementing Amazon Q CLI. This reduced manual processes, such as a one-hour Jira import for 20+ issues, to minutes.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item no-break">
+            <div class="job-title">Senior Producer, Development</div>
+            <div class="company">Amazon Games Studio | 2023 - 2024</div>
+            <ul>
+                <li>Spearheaded the successful console launch for <strong>New World</strong>, coordinating all beta and full version deliveries and serving as the main point of contact for first-party discussions, waivers, and progress updates.</li>
+                <li>Drove a 50% reduction in deployment lag by successfully negotiating for authorization to self-submit retail builds, unlocking daily retail environment testing during a critical project phase.</li>
+                <li>Owned the entire console product pipeline, from analyzing complex problems and resolving cross-team dependencies to driving milestone completion and ensuring alignment with strategic priorities.</li>
+                <li>Resolved a critical team pain point by establishing a new planning and scheduling process with accurate working estimates, significantly improving project predictability and team morale.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item no-break">
+            <div class="job-title">Executive Producer, Publishing</div>
+            <div class="company">2K | 2019-2023</div>
+            <ul>
+                <li>Hired, managed, and mentored a team of 16 producers, fostering their career growth while guiding multiple projects from concept through to completion.</li>
+                <li>Drove the commercial success of the <strong>Borderlands</strong> franchise, supporting its growth to a billion-dollar brand and launching new IP like <strong>Tiny Tina's Wonderlands</strong>.</li>
+                <li>Oversaw the launch of <strong>Marvel's Midnight Suns</strong>, managing the development partnership with Firaxis to deliver the project on schedule.</li>
+                <li>Led strategic planning for product budgets and milestone schedules across a portfolio of 10+ titles, identifying and resolving overruns and reporting on project status to executive leadership.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="no-break">
+        <h2>Other Experience</h2>
+        <ul>
+            <li><strong>Associate Producer / Producer (2K)</strong> | 2012-2018</li>
+            <li><strong>QA Supervisor / Lead Tester (2K)</strong> | 2009-2012</li>
+            <li>Began career in Quality Assurance, progressing to Lead Tester on multiple high-profile titles at <strong>Rockstar Games</strong> (2003-2007).</li>
+        </ul>
+    </div>
+
+    <div class="no-break">
+        <h2>Selected Production Credits</h2>
+        <div class="credits">
+            <div class="credit"><strong>New World: Aeternum</strong> (2024) - Production Director</div>
+            <div class="credit"><strong>New World: Rise of the Angry Earth</strong> (2023) - Sr. Producer</div>
+            <div class="credit"><strong>Marvel's Midnight Suns</strong> (2022) - Executive Producer</div>
+            <div class="credit"><strong>New Tales from the Borderlands</strong> (2022) - Executive Producer</div>
+            <div class="credit"><strong>Tiny Tina's Wonderlands</strong> (2022) - Executive Producer</div>
+            <div class="credit"><strong>Borderlands 3</strong> (2019) - Sr. Producer</div>
+            <div class="credit"><strong>WWE 2K19</strong> (2018) - Producer</div>
+            <div class="credit"><strong>Mafia III</strong> (2016) - Associate Producer</div>
+        </div>
+        <p style="text-align: center; margin-top: 0.5rem; font-size: 9pt;">
+            <a href="https://www.mobygames.com/person/581444/andrew-webster/">Moby Games</a>
+        </p>
+    </div>
+
+    <div class="no-break">
+        <h2>Technical Projects & Continuous Learning</h2>
+        <div class="project">
+            <div class="project-title">Webster AI Chef App (Personal Initiative)</div>
+            <div class="project-url">
+                <a href="https://ai-chef-meal-planner.web.app">https://ai-chef-meal-planner.web.app</a>
+            </div>
+            <ul class="project-details">
+                <li><strong>Product Architecture:</strong> Architected a full-stack, intelligent meal planning PWA featuring first-to-market integrations like Instacart delivery, AI-generated pixel art (Gemini 2.5 Image), and a social Community Cookbook.</li>
+                <li><strong>Advanced AI Engineering:</strong> Engineered an AI Vision pantry scanner using Gemini 2.5 Flash Vision for high-specificity ingredient recognition, and a self-learning Firestore database that continuously refines shopping list accuracy through an AI-driven curation loop.</li>
+                <li><strong>Full-Stack Development & Design:</strong> Developed the application using React 18/TypeScript with a serverless Firebase Cloud Functions backend; implemented a comprehensive "Medieval Fantasy Kitchen" design system with 100+ custom pixel art assets to create a unique, game-inspired user experience.</li>
+                <li><strong>Project Scope & Complexity:</strong> Delivered a feature-rich platform encompassing 80+ UI components and over 3,900 lines of backend code, including robust customization (8 dietary profiles, 17 cuisines) and meal plan sharing via unique codes.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

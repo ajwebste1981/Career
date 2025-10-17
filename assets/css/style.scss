@@ -223,6 +223,9 @@ a {
 
 .current-game-image {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -317,8 +320,9 @@ a {
 
 .game-thumbnail {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
+  object-position: center;
 }
 
 .game-info {

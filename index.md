@@ -3,7 +3,21 @@ layout: default
 title: Andrew J Webster - Game Production Executive
 ---
 
-<div class="hero-section">
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="#top">Andrew J Webster</a>
+    <nav class="site-nav">
+      <div class="trigger">
+        <a class="page-link" href="#experience">Experience</a>
+        <a class="page-link" href="#games">Games</a>
+        <a class="page-link" href="#expertise">Expertise</a>
+        <a class="page-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div id="top" class="hero-section">
   <div class="hero-content">
     <div class="hero-text">
       <h1>Andrew J Webster</h1>

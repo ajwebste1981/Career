@@ -1,6 +1,8 @@
 # Site Settings
-title: Game Production Portfolio
+title: Andrew J Webster - Game Production Executive
 email: AndrewJWebster1981@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  20+ years leading teams, shipping AAA titles, and building the processes that make studios successful.
 
 # Build settings
 theme: minima

@@ -252,10 +252,6 @@ title: Andrew J Webster - Game Production Portfolio
         <p><strong>If Your Team Doesn't Play, You Have a Problem:</strong> Internal churn is the canary in the coal mine for player churn. Mandate long-running playtests and ensure your development team genuinely wants to play your game.</p>
       </div>
     </div>
-    
-    <div class="vision-cta">
-      <p><em>I actively train teams on AI applications, build tools that reduce manual work, and champion the philosophy that great technology makes great producers exceptional—not replaceable.</em></p>
-    </div>
   </div>
 </section>
 

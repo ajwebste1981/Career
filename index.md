@@ -10,7 +10,7 @@ title: Andrew J Webster - Game Production Portfolio
       <div class="trigger">
         <a class="page-link" href="#experience">Experience</a>
         <a class="page-link" href="#games">Games</a>
-        <a class="page-link" href="#expertise">Expertise</a>
+        <a class="page-link" href="#vision">Vision</a>
         <a class="page-link" href="#contact">Contact</a>
       </div>
     </nav>
@@ -220,33 +220,41 @@ title: Andrew J Webster - Game Production Portfolio
   </div>
 </section>
 
-<section id="expertise" class="section">
+<section id="vision" class="section">
   <div class="container">
-    <h2>What I Do Best</h2>
-    <div class="expertise-grid">
-      <div class="expertise-card">
-        <div class="expertise-icon">🎯</div>
-        <h3>Strategic Problem Solving</h3>
-        <p>I take complex, ambiguous challenges and architect durable solutions. I don't just solve today's problem—I build systems that prevent tomorrow's problems.</p>
+    <h2>My Vision: The Future of Game Development</h2>
+    <div class="vision-intro">
+      <p>Based on 20+ years shipping live service games and analyzing what works (and what doesn't), here's my strategic perspective on where the industry is heading and how I approach the challenges shaping tomorrow's game development.</p>
+    </div>
+    
+    <div class="vision-grid">
+      <div class="vision-card">
+        <div class="vision-icon">🎮</div>
+        <h3>The Future of GaaS</h3>
+        <p><strong>Beyond Content Velocity:</strong> The next decade of live service success isn't about shipping faster—it's about building sustainable, data-informed production pipelines. Architecture for live operations from day one, parallel development streams, and empowered QA are non-negotiable.</p>
       </div>
       
-      <div class="expertise-card">
-        <div class="expertise-icon">👥</div>
-        <h3>Team Leadership</h3>
-        <p>I've led teams from 15 to 250+ people, building high-performing cultures through transparency, empowerment, and continuous growth.</p>
+      <div class="vision-card">
+        <div class="vision-icon">🤖</div>
+        <h3>AI as Production Accelerant</h3>
+        <p><strong>Augmentation, Not Replacement:</strong> I've built practical AI tools that reduce manual work by 98% (Jira automation, build analysis, reporting). The future belongs to AI-augmented producers who automate grunt work to focus on strategic problems and human relationships.</p>
       </div>
       
-      <div class="expertise-card">
-        <div class="expertise-icon">⚙️</div>
-        <h3>Process Architecture</h3>
-        <p>I create scalable frameworks that improve predictability and quality. My "Weather Map" reporting system is now used across multiple studios.</p>
+      <div class="vision-card">
+        <div class="vision-icon">📊</div>
+        <h3>Data-Driven Culture</h3>
+        <p><strong>Blameless Process Improvement:</strong> Implement standardized post-mortems, track historical patterns, and create psychological safety for "fail often and early." The studios that succeed will be those that build intelligent, sustainable systems.</p>
       </div>
       
-      <div class="expertise-card">
-        <div class="expertise-icon">🤖</div>
-        <h3>AI Innovation</h3>
-        <p>I champion AI as a force multiplier for production teams, reducing manual work by 98% and freeing teams to focus on strategic challenges.</p>
+      <div class="vision-card">
+        <div class="vision-icon">🎯</div>
+        <h3>Team-Centric Leadership</h3>
+        <p><strong>If Your Team Doesn't Play, You Have a Problem:</strong> Internal churn is the canary in the coal mine for player churn. Mandate long-running playtests and ensure your development team genuinely wants to play your game.</p>
       </div>
+    </div>
+    
+    <div class="vision-cta">
+      <p><em>I actively train teams on AI applications, build tools that reduce manual work, and champion the philosophy that great technology makes great producers exceptional—not replaceable.</em></p>
     </div>
   </div>
 </section>

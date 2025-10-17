@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Andrew J Webster - Game Production Executive
+title: Andrew J Webster - Game Production Portfolio
 ---
 
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="#top">Andrew J Webster</a>
+    <a class="site-title" rel="author" href="#top"></a>
     <nav class="site-nav">
       <div class="trigger">
         <a class="page-link" href="#experience">Experience</a>
@@ -21,8 +21,8 @@ title: Andrew J Webster - Game Production Executive
   <div class="hero-content">
     <div class="hero-text">
       <h1>Andrew J Webster</h1>
-      <h2>Game Production Executive</h2>
-      <p class="hero-subtitle">20+ years leading teams, shipping AAA titles, and building the processes that make studios successful</p>
+      <h2>Game Production Portfolio</h2>
+      <p class="hero-subtitle">20+ years leading teams, shipping AAA titles, and building the processes that make studios successful.</p>
       
       <div class="hero-cta">
         <a href="#experience" class="btn btn-primary">View Experience</a>
@@ -91,6 +91,11 @@ title: Andrew J Webster - Game Production Executive
       <div class="role-visual">
         <img src="assets/images/games/thumbnails/new-world-thumbnail.jpg" alt="New World" class="current-game-image">
         <p class="game-caption">Leading production for New World, Amazon's flagship MMO</p>
+        <div class="trailer-link">
+          <a href="https://www.newworld.com/en-us/#ags-MediaPopup" target="_blank" class="btn btn-secondary">
+            🎬 Watch New World Trailer
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -194,20 +199,11 @@ title: Andrew J Webster - Game Production Executive
       </div>
       
       <div class="game-card">
-        <img src="assets/images/games/thumbnails/wwe2k19-thumbnail.jpg" alt="WWE 2K19" class="game-thumbnail">
+        <img src="assets/images/games/thumbnails/evolve-thumbnail.jpg" alt="Evolve" class="game-thumbnail">
         <div class="game-info">
-          <h4>WWE 2K19</h4>
-          <p>2K Sports</p>
-          <span class="game-role">Producer</span>
-        </div>
-      </div>
-      
-      <div class="game-card">
-        <img src="assets/images/games/thumbnails/mafia3-thumbnail.jpg" alt="Mafia III" class="game-thumbnail">
-        <div class="game-info">
-          <h4>Mafia III</h4>
+          <h4>Evolve</h4>
           <p>2K Games</p>
-          <span class="game-role">Associate Producer</span>
+          <span class="game-role">Producer</span>
         </div>
       </div>
     </div>

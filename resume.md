@@ -5,10 +5,10 @@ title: Andrew J Webster - Resume
 
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">Andrew J Webster</a>
+    <a class="site-title" rel="author" href="/Career/">Andrew J Webster</a>
     <nav class="site-nav">
       <div class="trigger">
-        <a class="page-link" href="/">Portfolio</a>
+        <a class="page-link" href="/Career/">Portfolio</a>
         <a class="page-link" href="#contact">Contact</a>
       </div>
     </nav>
@@ -22,7 +22,6 @@ title: Andrew J Webster - Resume
       <p>628-238-9372 | AndrewJWebster1981@gmail.com</p>
       <div class="contact-links">
         <a href="https://www.linkedin.com/in/andrew-j-webster-4b0b7b1b3/" target="_blank">LinkedIn Profile</a>
-        <a href="/">Career History</a>
         <button onclick="window.print()" class="btn-download-pdf">📄 Download PDF</button>
       </div>
     </div>

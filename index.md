@@ -281,7 +281,7 @@ title: Andrew J Webster - Game Production Portfolio
         <p>View my resume to learn more about my experience and approach.</p>
         
         <div class="cta-buttons">
-          <a href="/resume" class="btn btn-primary">View Resume</a>
+          <a href="/Career/resume" class="btn btn-primary">View Resume</a>
         </div>
       </div>
     </div>

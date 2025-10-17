@@ -278,11 +278,10 @@ title: Andrew J Webster - Game Production Portfolio
       
       <div class="contact-cta">
         <h3>Ready to work together?</h3>
-        <p>Download my resume or explore my detailed career history to learn more about my experience and approach.</p>
+        <p>View my resume to learn more about my experience and approach.</p>
         
         <div class="cta-buttons">
           <a href="/resume" class="btn btn-primary">View Resume</a>
-          <a href="https://ajwebste1981.github.io/Career_History/" class="btn btn-secondary" target="_blank">View Full History</a>
         </div>
       </div>
     </div>

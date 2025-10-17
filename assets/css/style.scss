@@ -577,6 +577,250 @@ html {
   outline-offset: 2px;
 }
 
+// Resume Page Styles
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  color: var(--dark-blue);
+  margin: 0 0 1rem 0;
+  font-family: var(--font-family-monospace);
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin: 0 0 1rem 0;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-download-pdf {
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.btn-download-pdf:hover {
+  background: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+.resume-section {
+  margin-bottom: 2rem;
+}
+
+.resume-section h2 {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+  font-family: var(--font-family-monospace);
+}
+
+.resume-section h3 {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+  font-family: var(--font-family-monospace);
+}
+
+.resume-section h4 {
+  color: var(--gray);
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  font-weight: 400;
+}
+
+.competencies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.competency-item {
+  background: var(--light-gray);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--text-color);
+  border-left: 3px solid var(--primary-color);
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--light-gray);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.team-size {
+  color: var(--primary-color);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.experience-list li:before {
+  content: "•";
+  color: var(--primary-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.experience-list li:last-child {
+  border-bottom: none;
+}
+
+.other-experience {
+  list-style: none;
+  padding: 0;
+}
+
+.other-experience li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.other-experience li:last-child {
+  border-bottom: none;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.credit-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.credit-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.moby-games-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.moby-games-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-item {
+  background: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--secondary-color);
+}
+
+.project-link {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.project-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-details {
+  list-style: none;
+  padding: 0;
+}
+
+.project-details li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.project-details li:before {
+  content: "▶";
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+}
+
+.project-details li:last-child {
+  border-bottom: none;
+}
+
 // Print styles
 @media print {
   .hero-section {
@@ -592,5 +836,46 @@ html {
   
   .section-alt {
     background: none !important;
+  }
+  
+  .resume-container {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  
+  .btn-download-pdf {
+    display: none !important;
+  }
+  
+  .contact-links {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+  
+  .contact-links a {
+    border: 1px solid #000 !important;
+    background: none !important;
+    color: black !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+  
+  .competencies-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  
+  .credits-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .experience-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  .resume-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 }

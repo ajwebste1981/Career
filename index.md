@@ -89,7 +89,7 @@ title: Andrew J Webster - Game Production Portfolio
       </div>
       
       <div class="role-visual">
-        <img src="assets/images/games/thumbnails/new-world-thumbnail.jpg" alt="New World" class="current-game-image">
+        <img src="assets/images/games/thumbnails/new-world-nighthaven.jpg" alt="New World Nighthaven update" class="current-game-image">
         <p class="game-caption">Leading production for New World, Amazon's flagship MMO</p>
         <div class="trailer-link">
           <a href="https://www.newworld.com/en-us/#ags-MediaPopup" target="_blank" class="btn btn-secondary">
@@ -162,50 +162,60 @@ title: Andrew J Webster - Game Production Portfolio
   <div class="container">
     <h2>Games I've Shipped</h2>
     <div class="games-grid">
-      <div class="game-card">
-        <img src="assets/images/games/thumbnails/new-world-thumbnail.jpg" alt="New World" class="game-thumbnail">
-        <div class="game-info">
-          <h4>New World</h4>
-          <p>Amazon Games</p>
-          <span class="game-role">Production Director</span>
+      <a href="https://www.newworld.com/en-us/" target="_blank" class="game-card-link">
+        <div class="game-card">
+          <img src="assets/images/games/thumbnails/new-world-thumbnail.jpg" alt="New World" class="game-thumbnail">
+          <div class="game-info">
+            <h4>New World</h4>
+            <p>Amazon Games</p>
+            <span class="game-role">Production Director</span>
+          </div>
         </div>
-      </div>
+      </a>
       
-      <div class="game-card">
-        <img src="assets/images/games/thumbnails/midnight-suns-thumbnail.jpg" alt="Marvel's Midnight Suns" class="game-thumbnail">
-        <div class="game-info">
-          <h4>Marvel's Midnight Suns</h4>
-          <p>2K Games</p>
-          <span class="game-role">Executive Producer</span>
+      <a href="https://midnightsuns.2k.com/" target="_blank" class="game-card-link">
+        <div class="game-card">
+          <img src="assets/images/games/thumbnails/midnight-suns-thumbnail.jpg" alt="Marvel's Midnight Suns" class="game-thumbnail">
+          <div class="game-info">
+            <h4>Marvel's Midnight Suns</h4>
+            <p>2K Games</p>
+            <span class="game-role">Executive Producer</span>
+          </div>
         </div>
-      </div>
+      </a>
       
-      <div class="game-card">
-        <img src="assets/images/games/thumbnails/wonderlands-thumbnail.jpg" alt="Tiny Tina's Wonderlands" class="game-thumbnail">
-        <div class="game-info">
-          <h4>Tiny Tina's Wonderlands</h4>
-          <p>2K Games</p>
-          <span class="game-role">Executive Producer</span>
+      <a href="https://wonderlands.2k.com/" target="_blank" class="game-card-link">
+        <div class="game-card">
+          <img src="assets/images/games/thumbnails/wonderlands-thumbnail.jpg" alt="Tiny Tina's Wonderlands" class="game-thumbnail">
+          <div class="game-info">
+            <h4>Tiny Tina's Wonderlands</h4>
+            <p>2K Games</p>
+            <span class="game-role">Executive Producer</span>
+          </div>
         </div>
-      </div>
+      </a>
       
-      <div class="game-card">
-        <img src="assets/images/games/thumbnails/borderlands3-thumbnail.jpg" alt="Borderlands 3" class="game-thumbnail">
-        <div class="game-info">
-          <h4>Borderlands 3</h4>
-          <p>2K Games</p>
-          <span class="game-role">Executive Producer</span>
+      <a href="https://borderlands.2k.com/" target="_blank" class="game-card-link">
+        <div class="game-card">
+          <img src="assets/images/games/thumbnails/borderlands3-thumbnail.jpg" alt="Borderlands 3" class="game-thumbnail">
+          <div class="game-info">
+            <h4>Borderlands 3</h4>
+            <p>2K Games</p>
+            <span class="game-role">Executive Producer</span>
+          </div>
         </div>
-      </div>
+      </a>
       
-      <div class="game-card">
-        <img src="assets/images/games/thumbnails/evolve-thumbnail.jpg" alt="Evolve" class="game-thumbnail">
-        <div class="game-info">
-          <h4>Evolve</h4>
-          <p>2K Games</p>
-          <span class="game-role">Producer</span>
+      <a href="https://www.2k.com/en-US/game/evolve/" target="_blank" class="game-card-link">
+        <div class="game-card">
+          <img src="assets/images/games/thumbnails/evolve-thumbnail.jpg" alt="Evolve" class="game-thumbnail">
+          <div class="game-info">
+            <h4>Evolve</h4>
+            <p>2K Games</p>
+            <span class="game-role">Producer</span>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>

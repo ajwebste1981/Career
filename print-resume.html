@@ -194,47 +194,99 @@
         @media print {
             body {
                 padding: 0.25in;
-                font-size: 10pt;
+                font-size: 9pt;
+                line-height: 1.2;
             }
             
             h1 {
-                font-size: 18pt;
+                font-size: 16pt;
+                margin-bottom: 0.3rem;
             }
             
             h2 {
-                font-size: 12pt;
-                margin: 0.75rem 0 0.25rem 0;
+                font-size: 11pt;
+                margin: 0.4rem 0 0.2rem 0;
+                padding-bottom: 0.1rem;
+                border-bottom: 1px solid #ccc;
+            }
+            
+            h3 {
+                font-size: 10pt;
+                margin: 0.3rem 0 0.15rem 0;
+            }
+            
+            .header {
+                margin-bottom: 0.8rem;
+                padding-bottom: 0.5rem;
+            }
+            
+            .contact-info {
+                font-size: 8pt;
+                margin-top: 0.3rem;
             }
             
             .competencies {
                 grid-template-columns: repeat(3, 1fr);
-                gap: 0.1rem;
+                gap: 0.08rem;
+                margin: 0.3rem 0;
             }
             
             .competency {
-                font-size: 8pt;
-                padding: 0.1rem 0.25rem;
+                font-size: 7pt;
+                padding: 0.08rem 0.15rem;
             }
             
             .credits {
                 grid-template-columns: repeat(2, 1fr);
-                gap: 0.1rem;
+                gap: 0.08rem;
+                margin: 0.3rem 0;
             }
             
             .credit {
-                font-size: 8pt;
+                font-size: 7pt;
+            }
+            
+            .experience-item {
+                margin-bottom: 0.6rem;
+            }
+            
+            .job-title {
+                font-size: 10pt;
+            }
+            
+            .company {
+                font-size: 9pt;
             }
             
             .project-details li {
                 font-size: 8pt;
+                margin: 0.1rem 0;
             }
             
             li {
-                font-size: 9pt;
+                font-size: 8pt;
+                margin: 0.1rem 0;
             }
             
             p {
-                font-size: 9pt;
+                font-size: 8pt;
+                margin: 0.15rem 0;
+            }
+            
+            .project-title {
+                font-size: 10pt;
+            }
+            
+            .project-url {
+                font-size: 8pt;
+            }
+            
+            .section-divider {
+                margin: 0.2rem 0;
+            }
+            
+            .section-divider-thick {
+                margin: 0.3rem 0;
             }
         }
         
@@ -245,6 +297,21 @@
         
         .no-break {
             page-break-inside: avoid;
+        }
+        
+        /* Section dividers */
+        .section-divider {
+            height: 1px;
+            background: #ddd;
+            margin: 0.3rem 0;
+            border: none;
+        }
+        
+        .section-divider-thick {
+            height: 2px;
+            background: #2c3e50;
+            margin: 0.4rem 0;
+            border: none;
         }
     </style>
 </head>
@@ -278,7 +345,9 @@
         </div>
     </div>
 
-    <div class="page-break">
+    <hr class="section-divider-thick">
+
+    <div class="no-break">
         <h2>Professional Experience</h2>
         
         <div class="experience-item no-break">
@@ -315,16 +384,16 @@
         </div>
     </div>
 
-    <div class="no-break">
+    <div class="page-break">
         <h2>Other Experience</h2>
         <ul>
             <li><strong>Associate Producer / Producer (2K)</strong> | 2012-2018</li>
             <li><strong>QA Supervisor / Lead Tester (2K)</strong> | 2009-2012</li>
             <li>Began career in Quality Assurance, progressing to Lead Tester on multiple high-profile titles at <strong>Rockstar Games</strong> (2003-2007).</li>
         </ul>
-    </div>
 
-    <div class="no-break">
+        <hr class="section-divider">
+
         <h2>Selected Production Credits</h2>
         <div class="credits">
             <div class="credit"><strong>New World: Aeternum</strong> (2024) - Production Director</div>
@@ -339,9 +408,9 @@
         <p style="text-align: center; margin-top: 0.5rem; font-size: 9pt;">
             <a href="https://www.mobygames.com/person/581444/andrew-webster/">Moby Games</a>
         </p>
-    </div>
 
-    <div class="no-break">
+        <hr class="section-divider">
+
         <h2>Technical Projects & Continuous Learning</h2>
         <div class="project">
             <div class="project-title">Webster AI Chef App (Personal Initiative)</div>

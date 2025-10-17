@@ -269,7 +269,7 @@ title: Andrew J Webster - Game Production Portfolio
             <span>628-238-9372</span>
           </a>
           
-          <a href="https://www.linkedin.com/in/andrew-j-webster-4b0b7b1b3/" class="contact-method" target="_blank">
+          <a href="https://www.linkedin.com/in/andrew-webster-68577b13/" class="contact-method" target="_blank">
             <span class="contact-icon">💼</span>
             <span>LinkedIn Profile</span>
           </a>
